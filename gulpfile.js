@@ -70,7 +70,7 @@ gulp.task('prefix', function() {
     .pipe(cssPrefix({
       parentClass:'_spectre'
       }))
-      .pipe(gulp.dest('./dist'))
+      .pipe(gulp.dest('./dist_prefix'))
 });
 
 gulp.task('default', ['build']);
